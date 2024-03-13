@@ -1,0 +1,67 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xe5734Ea36CC555A551492A95142bA3E3B3811147",
+    "txHash": "0x6737242adc39120f57c76c0fdb17611936637c7a906084d58c51d5306eb1aad1"
+  },
+  "proxies": [
+    {
+      "address": "0x7D33bfFdcB9ed2d0F047481FE21C57eE826b0566",
+      "txHash": "0xefc462b212fc32d4142cdcfa118cfc27f64281f57c2086b3185efb2149ffbae1",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "008e79cf668f94addba7381a0bb32dcd0ab6853da988ebc81e2d06e7a3fc613c": {
+      "address": "0xD599C536B0378c8024dDf8a445859dd94eFf9942",
+      "txHash": "0x041cf7a4ca88f4c96b69b354d9e8040335f2003e0c1f6ac32382574f83b5007a",
+      "layout": {
+        "solcVersion": "0.7.6",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "label": "_baseTokenURI",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_string_storage",
+            "contract": "NonfungibleTokenPositionDescriptorOffChain",
+            "src": "contracts/NonfungibleTokenPositionDescriptorOffChain.sol:14"
+          },
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "NonfungibleTokenPositionDescriptorOffChain",
+            "src": "contracts/NonfungibleTokenPositionDescriptorOffChain.sol:19"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

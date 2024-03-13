@@ -1,0 +1,72 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x7D33bfFdcB9ed2d0F047481FE21C57eE826b0566",
+    "txHash": "0x24a7ded2fa067efd08ea778926811929fec1963c20b7ce4a7be6096bdcf82ae7"
+  },
+  "proxies": [
+    {
+      "address": "0x0C467640b1d4D990927109c5CA6e13a6c9B65Adb",
+      "txHash": "0xe0dbe840d28f55c6c3dcc01e36f0ee8353ac4489767d4006941218aa5a7dc6bc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0854d7C5D10fFB0D11a9267107B26CcAA6ea39Eb",
+      "txHash": "0xbcc25c00221cf2b6eadde52bd48382a1ff00e47059a661e55e2b9b79f0419a2f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "008e79cf668f94addba7381a0bb32dcd0ab6853da988ebc81e2d06e7a3fc613c": {
+      "address": "0xe5734Ea36CC555A551492A95142bA3E3B3811147",
+      "txHash": "0x554f55f86192dd2d0ffd7273a420d502c36bce1cdac409006c4bdb116a401db6",
+      "layout": {
+        "solcVersion": "0.7.6",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "label": "_baseTokenURI",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_string_storage",
+            "contract": "NonfungibleTokenPositionDescriptorOffChain",
+            "src": "contracts/NonfungibleTokenPositionDescriptorOffChain.sol:14"
+          },
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "NonfungibleTokenPositionDescriptorOffChain",
+            "src": "contracts/NonfungibleTokenPositionDescriptorOffChain.sol:19"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

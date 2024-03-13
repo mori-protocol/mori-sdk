@@ -1,0 +1,8 @@
+{
+  "SwapRouter": "0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88",
+  "Quoter": "0x0dd48d2b400d8b6FeC506C0855263E553231a811",
+  "TickLens": "0x740A14f6EDf536C59008Cb62C9F212Cc2a5675ea",
+  "NonfungibleTokenPositionDescriptor": "0x7D33bfFdcB9ed2d0F047481FE21C57eE826b0566",
+  "NonfungiblePositionManager": "0x0C467640b1d4D990927109c5CA6e13a6c9B65Adb",
+  "MoriInterfaceMulticall": "0x6bD7044e0C69BfE28773133DCc1A2A6a3ca8e7A1"
+}

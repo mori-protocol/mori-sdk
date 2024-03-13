@@ -1,0 +1,4 @@
+cache/
+crytic-export/
+node_modules/
+typechain/

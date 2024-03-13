@@ -1,0 +1,9 @@
+{
+  "name": "@moriswap/common",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "compile": "echo 'No compile needed'",
+    "test": "echo 'No test needed'"
+  }
+}

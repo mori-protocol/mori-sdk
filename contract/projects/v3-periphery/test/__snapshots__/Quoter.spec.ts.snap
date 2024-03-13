@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quoter quotes #quoteExactInput 0 -> 2 -> 1 1`] = `340088`;
+
+exports[`Quoter quotes #quoteExactInput 0 -> 2 cross 0 tick, starting tick initialized 1`] = `131679`;
+
+exports[`Quoter quotes #quoteExactInput 0 -> 2 cross 0 tick, starting tick not initialized 1`] = `108643`;
+
+exports[`Quoter quotes #quoteExactInput 0 -> 2 cross 1 tick 1`] = `175081`;
+
+exports[`Quoter quotes #quoteExactInput 0 -> 2 cross 2 tick 1`] = `213097`;
+
+exports[`Quoter quotes #quoteExactInput 0 -> 2 cross 2 tick where after is initialized 1`] = `175081`;
+
+exports[`Quoter quotes #quoteExactInput 2 -> 0 cross 0 tick, starting tick initialized 1`] = `105113`;
+
+exports[`Quoter quotes #quoteExactInput 2 -> 0 cross 0 tick, starting tick not initialized 1`] = `101214`;
+
+exports[`Quoter quotes #quoteExactInput 2 -> 0 cross 2 1`] = `205681`;
+
+exports[`Quoter quotes #quoteExactInput 2 -> 0 cross 2 where tick after is initialized 1`] = `205689`;
+
+exports[`Quoter quotes #quoteExactInput 2 -> 1 1`] = `127005`;
+
+exports[`Quoter quotes #quoteExactInputSingle 0 -> 2 1`] = `213079`;
+
+exports[`Quoter quotes #quoteExactInputSingle 2 -> 0 1`] = `205653`;
+
+exports[`Quoter quotes #quoteExactOutput 0 -> 2 -> 1 1`] = `339688`;
+
+exports[`Quoter quotes #quoteExactOutput 0 -> 2 cross 0 tick starting tick initialized 1`] = `131222`;
+
+exports[`Quoter quotes #quoteExactOutput 0 -> 2 cross 0 tick starting tick not initialized 1`] = `108206`;
+
+exports[`Quoter quotes #quoteExactOutput 0 -> 2 cross 1 tick 1`] = `174329`;
+
+exports[`Quoter quotes #quoteExactOutput 0 -> 2 cross 2 tick 1`] = `212127`;
+
+exports[`Quoter quotes #quoteExactOutput 0 -> 2 cross 2 where tick after is initialized 1`] = `174329`;
+
+exports[`Quoter quotes #quoteExactOutput 2 -> 0 cross 1 tick 1`] = `167931`;
+
+exports[`Quoter quotes #quoteExactOutput 2 -> 0 cross 2 ticks 1`] = `205763`;
+
+exports[`Quoter quotes #quoteExactOutput 2 -> 0 cross 2 where tick after is initialized 1`] = `205757`;
+
+exports[`Quoter quotes #quoteExactOutput 2 -> 1 1`] = `127558`;
+
+exports[`Quoter quotes #quoteExactOutputSingle 0 -> 1 1`] = `135080`;
+
+exports[`Quoter quotes #quoteExactOutputSingle 1 -> 0 1`] = `128187`;
